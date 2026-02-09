@@ -53,3 +53,8 @@ A projekt tanulási célból készül (HTML / CSS / JavaScript gyakorlás).
 
 Ez a projekt oktatási célból készült.
 
+---
+
+## Forrás
+
+A ChatGPT segített a szövegek megírásában
