@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url(állományok/Betűtípus.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'Minecraft', monospace !important
+}
 /* Reset */
 * {
     margin: 0;
@@ -55,19 +64,78 @@ body::before {
     margin-bottom: 50px;
     text-shadow: 4px 4px 0 black, 6px 6px 0 #3cff00;
 }
-.div_1 {
-    width: 400px;        /* a div szélessége */
-    height: 30px;       /* a div magassága */
+.menüpont {
+    width: 500px;        /* a div szélessége */
+    height: 50px;       /* a div magassága */
     border: 3px solid black;
-    border-radius: 12px;
+    border-radius: 3px;
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    margin: 400px auto;
+    position: relative;  /* vagy absolute, ha konkrét helyre kell */
+    top: -150px;          /* mennyivel akarod feljebb tolni */
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     display: flex;
+    background-image: url(állományok/képek/háttér_goombokhoz.webp);
+    color: white;;
+    padding-top: 16px;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
 }
-
-
+.menüpont2 {
+    width: 500px;        /* a div szélessége */
+    height: 50px;       /* a div magassága */
+    border: 3px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    position: relative;  /* vagy absolute, ha konkrét helyre kell */
+    top: -125px;          /* mennyivel akarod feljebb tolni */
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    background-image: url(állományok/képek/háttér_goombokhoz.webp);
+    color: white;;
+    padding-top: 16px;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+.menüpont:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 4px 0 0 #000;
+    border-color: white;
+}
+.menüpont2:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 4px 0 0 #000;
+    border-color: white;
+}
+.menüpont3 {
+    width: 500px;        /* a div szélessége */
+    height: 50px;       /* a div magassága */
+    border: 3px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    position: relative;  /* vagy absolute, ha konkrét helyre kell */
+    top: -100px;          /* mennyivel akarod feljebb tolni */
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    background-image: url(állományok/képek/háttér_goombokhoz.webp);
+    color: white;;
+    padding-top: 16px;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+.menüpont3:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 4px 0 0 #000;
+    border-color: white;
+}
 .logo-container {
     display: flex;
     justify-content: center;
