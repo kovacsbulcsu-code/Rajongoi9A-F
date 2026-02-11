@@ -69,3 +69,16 @@ body::before {
     margin-bottom: 50px;
     text-shadow: 4px 4px 0 black, 6px 6px 0 #3cff00;
 }
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: -80px;
+}
+
+.logo {
+    max-width: 50%; 
+    height: auto;    
+}
