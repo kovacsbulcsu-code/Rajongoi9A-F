@@ -1,0 +1,13 @@
+body{
+        background-color: #3fa34d;
+    background-image: linear-gradient(
+        135deg,
+        #1bda2b 0%,
+        #0a921a 30%,
+        #0c7c1b 60%,
+        #03330b 100%
+    );
+
+    background-attachment: fixed;
+    color:black ;
+}
