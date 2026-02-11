@@ -1,17 +1,3 @@
-body{
-        background-color: #3fa34d;
-    background-image: linear-gradient(
-        135deg,
-        #1bda2b 0%,
-        #0a921a 30%,
-        #0c7c1b 60%,
-        #03330b 100%
-    );
-
-    background-attachment: fixed;
-    color:black ;
-}
-
 /* Reset */
 * {
     margin: 0;
@@ -69,6 +55,18 @@ body::before {
     margin-bottom: 50px;
     text-shadow: 4px 4px 0 black, 6px 6px 0 #3cff00;
 }
+.div_1 {
+    width: 400px;        /* a div szélessége */
+    height: 30px;       /* a div magassága */
+    border: 3px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin: 400px auto;
+    display: flex;
+}
+
 
 .logo-container {
     display: flex;
