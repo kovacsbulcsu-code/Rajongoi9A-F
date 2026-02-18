@@ -12,9 +12,16 @@ body{
 .div_1{
     background-image: url(állományok/képek/háttér_goombokhoz.webp);
     justify-content:center;
-    text-align: center;
+    text-align:left;
     border-radius: 20px;
     padding: 20px;          
     box-sizing: border-box; 
     overflow: hidden
+}
+.carousel-item img {
+    width: 100%;
+    height: 100%; /* Példa magasság */
+    object-fit: cover;
+    background-color: #ccc; /* szürke háttér, ha kép nincs */
+    border-radius: 100px;
 }
