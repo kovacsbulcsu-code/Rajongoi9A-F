@@ -5,7 +5,7 @@
     font-style: normal;
 }
 body{
-    background-image: url(állományok/képek/Háttérkép.jpg);
+    background-image: url(állományok/képek/háttérkép_mellékoldal.png);
     font-family: 'Minecraft', monospace !important;
     color: white;   
 }
@@ -24,4 +24,31 @@ body{
     object-fit: cover;
     background-color: #ccc; /* szürke háttér, ha kép nincs */
     border-radius: 100px;
+}
+#updaterCarousel3 .carousel-item {
+    height: 750px;              /* fix magasság */
+}
+
+#updaterCarousel3 .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;          /* nem torzít, kitölti a sávot */
+}
+#updaterCarousel4 .carousel-item {
+    height: 750px;              /* fix magasság */
+}
+
+#updaterCarousel4 .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;          /* nem torzít, kitölti a sávot */
+}
+#updaterCarousel5 .carousel-item {
+    height: 750px;              /* fix magasság */
+}
+
+#updaterCarousel5 .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;          /* nem torzít, kitölti a sávot */
 }
