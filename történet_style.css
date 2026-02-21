@@ -23,6 +23,9 @@ body{
     overflow: hidden;
     margin-bottom: 40px;
     scroll-margin-top: 67px;
+    background: linear-gradient(135deg, #0d1b1e, #111827);
+    padding: 40px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.7);
 }
 div h1{
     text-align: center;
