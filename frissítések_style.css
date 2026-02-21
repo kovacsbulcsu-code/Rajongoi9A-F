@@ -10,13 +10,15 @@ body{
     color: white;   
 }
 .div_1{
-    background-image: url(állományok/képek/háttér_goombokhoz.webp);
     justify-content:center;
     text-align:left;
     border-radius: 20px;
     padding: 20px;          
     box-sizing: border-box; 
-    overflow: hidden
+    overflow: hidden;
+    background: linear-gradient(135deg, #0d1b1e, #111827);
+    padding: 40px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.7);
 }
 .carousel-item img {
     width: 100%;
