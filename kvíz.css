@@ -70,10 +70,10 @@ body{
     display: none;
 }
 .correct{
-    background: #9aeabc !important;
+    background: green !important;
 }
 .incorrect{
-    background: #ff9393 !important;
+    background: red !important;
 }
 
 .home-fixed {
