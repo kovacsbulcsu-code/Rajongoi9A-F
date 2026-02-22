@@ -54,3 +54,34 @@ body{
     width: 100%;
     object-fit: cover;          /* nem torzít, kitölti a sávot */
 }
+
+.home-fixed {
+  position: fixed;
+  top: 60px;
+  left: 50px;
+  z-index: 9999; 
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5); 
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.home-fixed:hover {
+  transform: scale(1.1);
+}
+
+.home-fixed img {
+  height: 150px; 
+  width: auto;
+  image-rendering: pixelated;
+  display: block;
+}
+
+.home-label{
+  color: #55FF55;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 2px 2px 0 #000;
+  text-decoration: none;
+  border-bottom: none;
+}
