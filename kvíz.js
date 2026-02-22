@@ -90,12 +90,48 @@ const questions = [
         ]
     },
      {
-        question: "Ki számít az egyik legismertebb magyar Minecraft-tartalomgyártónak, aki főként túlélő és kihívás videóiról ismert?",
+        question: "Mi szükséges egy Brewing Stand működtetéséhez?",
         answers: [
-            { text: "Dream", correct: false},
-            { text: "Rolix", correct: true},
-            { text: "PewDiePie", correct: false},
-            { text: "ZsDav", correct: false}, 
+            { text: "Redstone", correct: false},
+            { text: "Blaze Powder", correct: true},
+            { text: "Glowstone Dust", correct: false},
+            { text: "Gunpowder", correct: false}, 
+        ]
+    },
+    {
+        question: "Melyik blokkot NEM lehet Silk Touch-tal leszedni?",
+        answers: [
+            { text: "Stone", correct: false},
+            { text: "Grass Block", correct: false},
+            { text: "Obsidian", correct: false},
+            { text: "Lava", correct: true}, 
+        ]
+    },
+    {
+        question: "Melyik potion hatása tart a leghosszabb ideig?",
+        answers: [
+            { text: "Night Vision", correct: false},
+            { text: "Fire Resistance", correct: false},
+            { text: "Strength", correct: false},
+            { text: "Slow Falling", correct: true}, 
+        ]
+    },
+    {
+        question: "Melyik blokkot használják alapként a Beaconhoz?",
+        answers: [
+            { text: "Iron Block", correct: false},
+            { text: "Gold BLock", correct: false},
+            { text: "Diamond Block", correct: false},
+            { text: "Mindegyiket", correct: true}, 
+        ]
+    },
+    {
+        question: "Melyik blokk nem tapad a Slime Blockhoz?",
+        answers: [
+            { text: "Slime BLock", correct: true},
+            { text: "Redstone Block", correct: false},
+            { text: "Stone", correct: false},
+            { text: "Honey Block", correct: false}, 
         ]
     },
 ];
