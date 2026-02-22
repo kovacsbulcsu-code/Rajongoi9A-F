@@ -50,12 +50,13 @@ body::before {
 .menu-container {
     position: relative;
     z-index: 2;
-    height: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    gap: 20px;
+    padding: 20px;
 }
 
 /* Cím */
@@ -64,102 +65,8 @@ body::before {
     margin-bottom: 50px;
     text-shadow: 4px 4px 0 black, 6px 6px 0 #3cff00;
 }
-.menüpont {
-    width: 500px;        /* a div szélessége */
-    height: 50px;       /* a div magassága */
-    border: 3px solid black;
-    border-radius: 3px;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    position: relative;  /* vagy absolute, ha konkrét helyre kell */
-    top: -150px;          /* mennyivel akarod feljebb tolni */
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    display: flex;
-    background-image: url(állományok/képek/háttér_goombokhoz.webp);
-    color: white;;
-    padding-top: 16px;
-    transition: transform 0.1s ease, box-shadow 0.1s ease;
-}
-.menüpont2 {
-    width: 500px;        /* a div szélessége */
-    height: 50px;       /* a div magassága */
-    border: 3px solid black;
-    border-radius: 3px;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    position: relative;  /* vagy absolute, ha konkrét helyre kell */
-    top: -125px;          /* mennyivel akarod feljebb tolni */
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    display: flex;
-    background-image: url(állományok/képek/háttér_goombokhoz.webp);
-    color: white;;
-    padding-top: 16px;
-    transition: transform 0.1s ease, box-shadow 0.1s ease;
-}
-.menüpont:hover{
-    transform: translateY(-2px);
-    box-shadow: 0 4px 0 0 #000;
-    border-color: white;
-}
-.menüpont2:hover{
-    transform: translateY(-2px);
-    box-shadow: 0 4px 0 0 #000;
-    border-color: white;
-}
-.menüpont3 {
-    width: 500px;        /* a div szélessége */
-    height: 50px;       /* a div magassága */
-    border: 3px solid black;
-    border-radius: 3px;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    position: relative;  /* vagy absolute, ha konkrét helyre kell */
-    top: -100px;          /* mennyivel akarod feljebb tolni */
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    display: flex;
-    background-image: url(állományok/képek/háttér_goombokhoz.webp);
-    color: white;;
-    padding-top: 16px;
-    transition: transform 0.1s ease, box-shadow 0.1s ease;
-}
-.menüpont3:hover{
-    transform: translateY(-2px);
-    box-shadow: 0 4px 0 0 #000;
-    border-color: white;
-}
-.menüpont4 {
-    width: 500px;        /* a div szélessége */
-    height: 50px;       /* a div magassága */
-    border: 3px solid black;
-    border-radius: 3px;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    position: relative;  /* vagy absolute, ha konkrét helyre kell */
-    top: -75px;          /* mennyivel akarod feljebb tolni */
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    display: flex;
-    background-image: url(állományok/képek/háttér_goombokhoz.webp);
-    color: white;;
-    padding-top: 16px;
-    transition: transform 0.1s ease, box-shadow 0.1s ease;
-}
-.menüpont4:hover{
-    transform: translateY(-2px);
-    box-shadow: 0 4px 0 0 #000;
-    border-color: white;
-}
+
+
 .logo-container {
     display: flex;
     justify-content: center;
@@ -171,4 +78,41 @@ body::before {
 .logo {
     max-width: 50%; 
     height: auto;    
+}
+
+.menu-btn {
+    width: 90%;
+    max-width: 500px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 3px solid black;
+    border-radius: 3px;
+
+    background-image: url("állományok/képek/háttér_goombokhoz.webp");
+    background-size: auto;  
+    background-repeat: repeat;
+    background-position: center;
+
+    image-rendering: pixelated;   
+
+    color: white;
+    text-decoration: none;
+    font-size: clamp(14px, 2vw, 20px);
+
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+.menu-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 0 0 #000;
+    border-color: white;
+}
+
+.logo {
+    width: 90%;
+    max-width: 600px;
+    height: auto;
 }
