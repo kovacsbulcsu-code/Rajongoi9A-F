@@ -35,6 +35,69 @@ const questions = [
             { text: "réz", correct: true}, 
         ]
     },
+    {
+        question: "Mire koncentráltak leginkább a Minecraft legelső verziói?",
+        answers: [
+            { text: "PvP harcrendszerre", correct: false},
+            { text: "Történetmesélésre", correct: false},
+            { text: "Építési mechanikára", correct: true},
+            { text: "Küldetésalapú játékmenetre", correct: false}, 
+        ]
+    },
+    {
+        question: "Melyik vállalat vásárolta meg a Mojang Studios-t 2014-ben?",
+        answers: [
+            { text: "Sony", correct: false},
+            { text: "Nintendo", correct: false},
+            { text: "Electronic Arts", correct: false},
+            { text: "Microsoft", correct: true}, 
+        ]
+    },
+    {
+        question: "Mikor változik meg a Minecraft verziószámozási rendszere év alapú formátumra?",
+        answers: [
+            { text: "2024", correct: false},
+            { text: "2025", correct: false},
+            { text: "2026", correct: true},
+            { text: "2023", correct: false}, 
+        ]
+    },
+     {
+        question: "Melyik új élőlény került be az Update Aquatic frissítéssel?",
+        answers: [
+            { text: "Axolotl", correct: false},
+            { text: "Delfin", correct: true},
+            { text: "Warden", correct: false},
+            { text: "Piglin", correct: false}, 
+        ]
+    },
+     {
+        question: "Melyik tartalomgyártó vált ismertté a manhunt videósorozatáról?",
+        answers: [
+            { text: "PewDiePie", correct: false},
+            { text: "Rolix", correct: false},
+            { text: "Dream", correct: true},
+            { text: "Technoblade", correct: false}, 
+        ]
+    },
+    {
+        question: "Ki volt legendás a Minecraft PvP és kompetitív játékmenet területén?",
+        answers: [
+            { text: "Technoblade", correct: true},
+            { text: "PewDiePie", correct: false},
+            { text: "Dream", correct: false},
+            { text: "ZsDav", correct: false}, 
+        ]
+    },
+     {
+        question: "Ki számít az egyik legismertebb magyar Minecraft-tartalomgyártónak, aki főként túlélő és kihívás videóiról ismert?",
+        answers: [
+            { text: "Dream", correct: false},
+            { text: "Rolix", correct: true},
+            { text: "PewDiePie", correct: false},
+            { text: "ZsDav", correct: false}, 
+        ]
+    },
 ];
 
 const questionElement = document.getElementById("question");
