@@ -73,7 +73,7 @@ body::before {
     align-items: center;
     justify-content: center;
     position: relative;  /* vagy absolute, ha konkrét helyre kell */
-    top: -150px;          /* mennyivel akarod feljebb tolni */
+    top: -90px;          /* mennyivel akarod feljebb tolni */
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -92,7 +92,7 @@ body::before {
     align-items: center;
     justify-content: center;
     position: relative;  /* vagy absolute, ha konkrét helyre kell */
-    top: -125px;          /* mennyivel akarod feljebb tolni */
+    top: -65px;          /* mennyivel akarod feljebb tolni */
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -121,7 +121,7 @@ body::before {
     align-items: center;
     justify-content: center;
     position: relative;  /* vagy absolute, ha konkrét helyre kell */
-    top: -100px;          /* mennyivel akarod feljebb tolni */
+    top: -40px;          /* mennyivel akarod feljebb tolni */
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -145,7 +145,7 @@ body::before {
     align-items: center;
     justify-content: center;
     position: relative;  /* vagy absolute, ha konkrét helyre kell */
-    top: -75px;          /* mennyivel akarod feljebb tolni */
+    top: -15px;          /* mennyivel akarod feljebb tolni */
     left: 0;
     right: 0;
     margin: 0 auto;
