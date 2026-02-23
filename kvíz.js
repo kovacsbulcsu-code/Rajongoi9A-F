@@ -99,15 +99,6 @@ const questions = [
         ]
     },
     {
-        question: "Melyik blokkot NEM lehet Silk Touch-tal leszedni?",
-        answers: [
-            { text: "Stone", correct: false},
-            { text: "Grass Block", correct: false},
-            { text: "Obsidian", correct: false},
-            { text: "Lava", correct: true}, 
-        ]
-    },
-    {
         question: "Melyik blokkot használják alapként a Beaconhoz?",
         answers: [
             { text: "Iron Block", correct: false},
