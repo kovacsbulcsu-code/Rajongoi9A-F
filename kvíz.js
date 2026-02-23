@@ -108,30 +108,12 @@ const questions = [
         ]
     },
     {
-        question: "Melyik potion hatása tart a leghosszabb ideig?",
-        answers: [
-            { text: "Night Vision", correct: false},
-            { text: "Fire Resistance", correct: false},
-            { text: "Strength", correct: false},
-            { text: "Slow Falling", correct: true}, 
-        ]
-    },
-    {
         question: "Melyik blokkot használják alapként a Beaconhoz?",
         answers: [
             { text: "Iron Block", correct: false},
             { text: "Gold BLock", correct: false},
             { text: "Diamond Block", correct: false},
             { text: "Mindegyiket", correct: true}, 
-        ]
-    },
-    {
-        question: "Melyik blokk nem tapad a Slime Blockhoz?",
-        answers: [
-            { text: "Slime BLock", correct: true},
-            { text: "Redstone Block", correct: false},
-            { text: "Stone", correct: false},
-            { text: "Honey Block", correct: false}, 
         ]
     },
 ];
