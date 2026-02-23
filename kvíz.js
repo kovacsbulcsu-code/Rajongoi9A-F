@@ -139,6 +139,7 @@ const questions = [
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
+const counterElement = document.getElementById("question-counter");
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -154,6 +155,7 @@ function showQuestion() {
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
+    counterElement.innerHTML = questionNo + " / " + questions.length + " kérdés";
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
     currentQuestion.answers.forEach(answer => {
