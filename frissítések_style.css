@@ -57,7 +57,7 @@ body{
 
 .home-fixed {
   position: fixed;
-  top: calc(56px + 20px)
+  top: calc(56px + 20px);
   left: 3vw;
 
   z-index: 9999;
